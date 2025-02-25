@@ -1,0 +1,169 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About Us",
+        "admin": "Admin",
+        "categories": "Categories"
+    },
+    "about": {
+        "title": "About Us",
+        "welcome": "Welcome to",
+        "tagline": "where fashion and essence meet.",
+        "mission": "Our mission is to offer high-quality clothing that reflects your personality and unique style.",
+        "variety": "From casual wear to exclusive pieces, at",
+        "commitment": "we strive to bring you the best.",
+        "historyTitle": "Our History",
+        "historyText": "Founded in 2025, our store was born with the vision of redefining digital fashion, combining innovative trends with the convenience of online shopping.",
+        "contactTitle": "Contact",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone"
+    },
+    "productDetail": {
+        "sections": {
+            "warranty": {
+                "title": "Refund Warranty",
+                "description": "In case of any inconvenience, you can return or exchange the product without commitment."
+            },
+            "sizeGuide": {
+                "title": "Size Guide",
+                "description": "The sizing is standard, so we recommend using the usual size.",
+                "sizes": {
+                    "S": "S - 165/175 cm",
+                    "M": "M - 175/180 cm",
+                    "L": "L - 180/185 cm",
+                    "XL": "XL - 185/195 cm",
+                    "XXL": "XXL - more than 195 cm"
+                }
+            },
+            "materials": {
+                "title": "Materials",
+                "description": "Our items are of the highest quality, we take care of every detail."
+            },
+            "shipping": {
+                "title": "Express Shipping",
+                "description": "Delivery takes 7 to 10 days throughout Spain and Europe."
+            }
+        }
+    },
+    "terms": {
+        "title": "Terms of Service",
+        "intro": "All matters related to our services are detailed and available in the Terms of Use and Conditions detailed here.",
+        "sections": {
+            "general": {
+                "title": "1. General",
+                "content": "All sales of Products made by Your Special Closet are subject to these Terms of Use, unless otherwise stipulated. Other conditions or agreements that have not been expressly accepted in writing by the Seller will have no legal value or effect."
+            },
+            "websiteUse": {
+                "title": "2. Use of our website",
+                "content": [
+                    "Use this website only to make inquiries or legally valid orders.",
+                    "Do not place any false or fraudulent orders. If it is reasonably considered that an order of this kind has been made, we will be authorized to cancel it.",
+                    "Provide us with your email address, postal address, and/or other contact information truthfully and accurately. You also consent that we may use this information to contact you if necessary.",
+                    "If you do not provide all the information we need, we will not be able to process your order."
+                ]
+            },
+            "pricingAndShipping": {
+                "title": "3. Prices and Shipping",
+                "content": [
+                    "Website prices include shipping costs, which will be added to the total amount due as stated in our purchase guide.",
+                    "Prices may change at any time, but (except as stated above) possible changes will not affect orders for which we have already sent you an order confirmation.",
+                    "Once you have selected all the items you wish to purchase, they will be added to your cart and the next step will be to process the order and make the payment. To do this, you must follow the purchase process, filling in or checking the information requested at each step.",
+                    "The order will be sent to the address you indicated when you made your purchase. Your Special Closet makes every effort to respect the delivery times mentioned on the website. When we receive your order, we prepare the products and deliver them to logistics, which will be responsible for transporting the package.",
+                    "Unless circumstances arise from the customization of the products, or unforeseen or extraordinary circumstances occur, we will send the order consisting of the products listed in each shipping confirmation within the period indicated on the website according to the selected shipping method and, in any case, within a maximum period of 20 days from the date of order confirmation."
+                ]
+            },
+            "paymentMethods": {
+                "title": "4. Payment Methods",
+                "content": [
+                    "Regarding the payment method, you can use Paypal, connecting it directly with your credit or debit card.",
+                    "You can also make the payment by bank transfer or Bizum. When choosing this payment method during your purchase process, you will be provided with the account number to make the payment. The shipment will not be processed until this transfer is made.",
+                    "The data required for the purchase process will be used by Your Special Closet to complete the procedures related to the purchase."
+                ]
+            },
+            "customerService": {
+                "title": "5. Customer Service",
+                "content": "For any questions or clarifications, the user can contact Your Special Closet Customer Service by accessing the 'Contact' section of the website and selecting the corresponding option, through WhatsApp, or by sending an email to info.yourspecialcloset@gmail.com."
+            },
+            "modifications": {
+                "title": "6. Modification and update of conditions",
+                "content": "Your Special Closet reserves the right to modify these Terms of Use at any time, without the need to notify the user in advance, who in any case, is solely responsible for reviewing them as a prior and indispensable requirement for the acquisition of any product available through our website. In any case, the terms of use that are posted on the website at the time the user purchases the corresponding products will be considered valid and applicable."
+            }
+        },
+        "footer": {
+            "title": "Our Policies",
+            "links": {
+                "termsOfUse": "Terms of Use",
+                "privacyPolicy": "Privacy Policy",
+                "shippingPolicy": "Shipping Policy",
+                "contact": "Contact",
+                "aboutUs": "About Us"
+            }
+        }
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "section1": {
+            "title": "Last Update"
+        },
+        "section2": {
+            "title": "Information We Collect",
+            "point1": "Contact details including name, address, phone number, and email.",
+            "point2": "Order information including billing and shipping address, payment confirmation, and phone number.",
+            "point3": "Account information including username, password, and security questions.",
+            "point4": "Customer service information that you choose to share when communicating with us."
+        },
+        "section3": {
+            "title": "Use of Personal Information",
+            "content": "We use your information to provide services, process payments, fulfill orders, maintain your account, and offer customer support."
+        },
+        "section4": {
+            "title": "Cookies",
+            "content": "We use cookies to improve our services, remember your preferences, and analyze website interactions. You can configure your browser to block cookies, but this may affect functionality."
+        },
+        "section5": {
+            "title": "Disclosure of Information",
+            "content": "We may share your information with service providers, business partners, and affiliates. We do not knowingly collect information from children."
+        },
+        "section6": {
+            "title": "Your Rights",
+            "right1": "Right to access your personal information.",
+            "right2": "Right to request the deletion of your data.",
+            "right3": "Right to correct inaccurate information.",
+            "right4": "Right to receive a copy of your data.",
+            "right5": "Right to restrict or stop the processing of your data.",
+            "right6": "Right to withdraw consent at any time."
+        },
+        "section7": {
+            "title": "Security and Retention",
+            "content": "We take security measures to protect your information, but no system is completely secure. We retain data as long as necessary for our services and legal obligations."
+        },
+        "contact": {
+            "title": "Contact",
+            "content": "If you have any questions, contact us at info.yourspecialcloset@gmail.com."
+        }
+    },
+    "contact": {
+        "title": "Contact Information",
+        "content": "For any questions or clarifications, users can contact Conceptz Customer Service by accessing the 'Contact' section of the website, selecting the appropriate option, via WhatsApp, or by sending an email.",
+        "email": {
+            "label": "Email"
+        },
+        "whatsapp": {
+            "label": "WhatsApp"
+        }
+    },
+    "footer": {
+        "title": "Your Special Closet",
+        "policies": {
+            "title": "Our Policies",
+            "terms": "Terms of Use",
+            "privacy": "Privacy Policy",
+            "contact": "Contact"
+        },
+        "about": {
+            "title": "About Us",
+            "description": " was born in response to the growing demand for design items in recent years. We believe that the outfit is part of each person's essence, which is why our goal is to help you take care of your look, offering the most exclusive classic and urban fashion."
+        },
+        "copyright": "©"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre Nosotros",
+        "admin": "Admin",
+        "categories": "Categorias"
+    },
+    "about": {
+        "title": "Sobre Nosotros",
+        "welcome": "Bienvenido a",
+        "tagline": "donde la moda y la esencia se encuentran.",
+        "mission": "Nuestra misión es ofrecer ropa de alta calidad que refleje tu personalidad y estilo único.",
+        "variety": "Desde prendas casuales hasta piezas exclusivas, en",
+        "commitment": "nos esforzamos por brindarte lo mejor.",
+        "historyTitle": "Nuestra Historia",
+        "historyText": "Fundada en 2025, nuestra tienda nació con la visión de redefinir la moda digital, combinando tendencias innovadoras con la comodidad de las compras en línea.",
+        "contactTitle": "Contacto",
+        "emailLabel": "Correo Electrónico",
+        "phoneLabel": "Teléfono"
+    },
+    "productDetail": {
+        "sections": {
+            "warranty": {
+                "title": "Garantía de Reembolso",
+                "description": "Ante cualquier inconveniente podrás devolver o cambiar el producto sin compromiso."
+            },
+            "sizeGuide": {
+                "title": "Tallaje",
+                "description": "El tallaje es estándar, por lo tanto, recomendamos la talla usada habitualmente.",
+                "sizes": {
+                    "S": "S - 165/175 cm",
+                    "M": "M - 175/180 cm",
+                    "L": "L - 180/185 cm",
+                    "XL": "XL - 185/195 cm",
+                    "XXL": "XXL - más de 195 cm"
+                }
+            },
+            "materials": {
+                "title": "Materiales",
+                "description": "Nuestros artículos son de máxima calidad, cuidamos todos los detalles."
+            },
+            "shipping": {
+                "title": "Envío Express",
+                "description": "El envío es de 7 a 10 días a toda España y Europa."
+            }
+        }
+    },
+    "terms": {
+        "title": "Términos del servicio",
+        "intro": "Todo lo relacionado con nuestros servicios está detallado y disponible conforme a los Términos de Uso y Condiciones aquí detallados.",
+        "sections": {
+            "general": {
+                "title": "1. General",
+                "content": "Todas las ventas de los Productos efectuadas por Your Special Closet están sujetas a estas Condiciones de Uso, salvo estipulación en contrario. No tendrán valor ni efecto jurídico otras condiciones o pactos que no hayan sido aceptadas expresamente y por escrito por el Vendedor."
+            },
+            "websiteUse": {
+                "title": "2. Uso de nuestro sitio web",
+                "content": [
+                    "Hacer uso de esta página web únicamente para realizar consultas o pedidos legalmente válidos.",
+                    "No realizar ningún pedido falso o fraudulento. Si razonablemente se pudiera considerar que se ha hecho un pedido de esta índole estaremos autorizados a anularlo.",
+                    "Facilitarnos su dirección de correo electrónico, dirección postal y/u otros datos de contacto de forma veraz y exacta. Asimismo, consiente que podremos hacer uso de dicha información para ponernos en contacto con usted si fuera necesario.",
+                    "Si no nos facilita usted toda la información que necesitamos, no podremos cursar su pedido."
+                ]
+            },
+            "pricingAndShipping": {
+                "title": "3. Precios y Envío",
+                "content": [
+                    "Los precios de la página web incluyen gastos de envío, que se añadirán al importe total debido según se expone en nuestra guía de compra.",
+                    "Los precios pueden cambiar en cualquier momento, pero los posibles cambios no afectarán a los pedidos para los que ya le hayamos enviado una confirmación de pedido.",
+                    "Una vez que haya seleccionado todos los artículos que desea comprar, estos se habrán añadido a su cesta y el paso siguiente será tramitar el pedido y efectuar el pago. Para ello, deberá seguir los pasos del proceso de compra, rellenando o comprobando la información solicitada.",
+                    "El pedido será enviado a la dirección indicada en el momento de la compra. Your Special Closet hace todo lo posible para respetar los plazos de entrega mencionados en la web. Cuando recibimos su orden, preparamos los productos y los entregamos a logística, que se encargará del transporte del paquete.",
+                    "Salvo circunstancias derivadas de la personalización de los productos o circunstancias imprevistas o extraordinarias, enviaremos el pedido dentro del plazo señalado según el método de envío seleccionado y, en todo caso, en un plazo máximo de 20 días desde la fecha de confirmación del pedido."
+                ]
+            },
+            "paymentMethods": {
+                "title": "4. Métodos de pago",
+                "content": [
+                    "En referencia a la forma de pago, puede utilizar Paypal, conectándolo directamente con su tarjeta de crédito o débito.",
+                    "También puede realizar el pago mediante transferencia bancaria o Bizum. Al elegir este método de pago durante su proceso de compra, se le indicará el número de cuenta para realizar el importe. El envío no será procesado hasta que se haga efectiva dicha transferencia.",
+                    "Los datos requeridos para el proceso de compra serán utilizados por Your Special Closet a fin de completar los procedimientos relativos a la compra."
+                ]
+            },
+            "customerService": {
+                "title": "5. Atención al cliente",
+                "content": "Para cualquier duda o aclaración, el usuario puede ponerse en contacto con el Servicio de Atención al Cliente de Your Special Closet accediendo al apartado “Contacto” de la página web y seleccionando la opción correspondiente, a través de WhatsApp o enviando un correo electrónico a info.yourspecialcloset @gmail.com."
+            },
+            "modifications": {
+                "title": "6. Modificación y actualización de condiciones",
+                "content": "Your Special Closet se reserva el derecho de modificar estas Condiciones de Uso en cualquier momento, sin necesidad de comunicarlo previamente al usuario, quien en cualquier caso es el único responsable de revisarlas como requisito previo para la adquisición de cualquier producto disponible en nuestra página web. En cualquier caso, se considerarán válidas y aplicables las condiciones de uso que estén expuestas en la web en el momento en que el usuario adquiera los productos correspondientes."
+            }
+        },
+        "footer": {
+            "title": "Nuestras Políticas",
+            "links": {
+                "termsOfUse": "Términos de Uso",
+                "privacyPolicy": "Política de Privacidad",
+                "shippingPolicy": "Política de Envío",
+                "contact": "Contacta",
+                "aboutUs": "Sobre Nosotros"
+            }
+        }
+    },
+    "privacy": {
+        "title": "Política de privacidad",
+        "section1": {
+            "title": "Última actualización"
+        },
+        "section2": {
+            "title": "Información que recopilamos",
+            "point1": "Datos de contacto, incluido nombre, dirección, número de teléfono y correo electrónico.",
+            "point2": "Información de pedidos, incluida la dirección de facturación y envío, confirmación de pago y número de teléfono.",
+            "point3": "Información de la cuenta, como nombre de usuario, contraseña y preguntas de seguridad.",
+            "point4": "Información de atención al cliente que usted decida compartir al comunicarse con nosotros."
+        },
+        "section3": {
+            "title": "Uso de la información personal",
+            "content": "Utilizamos su información para ofrecer nuestros servicios, procesar pagos, cumplir pedidos, mantener su cuenta y proporcionar soporte al cliente."
+        },
+        "section4": {
+            "title": "Cookies",
+            "content": "Usamos cookies para mejorar nuestros servicios, recordar sus preferencias y analizar las interacciones del sitio web. Puede configurar su navegador para bloquear cookies, pero esto puede afectar la funcionalidad."
+        },
+        "section5": {
+            "title": "Divulgación de la información",
+            "content": "Podemos compartir su información con proveedores de servicios, socios comerciales y afiliados. No recopilamos intencionadamente información de menores."
+        },
+        "section6": {
+            "title": "Sus derechos",
+            "right1": "Derecho a acceder a su información personal.",
+            "right2": "Derecho a solicitar la eliminación de sus datos.",
+            "right3": "Derecho a corregir información inexacta.",
+            "right4": "Derecho a recibir una copia de sus datos.",
+            "right5": "Derecho a restringir o detener el procesamiento de sus datos.",
+            "right6": "Derecho a retirar su consentimiento en cualquier momento."
+        },
+        "section7": {
+            "title": "Seguridad y retención",
+            "content": "Tomamos medidas de seguridad para proteger su información, pero ningún sistema es completamente seguro. Conservamos los datos durante el tiempo necesario para nuestros servicios y obligaciones legales."
+        },
+        "contact": {
+            "title": "Contacto",
+            "content": "Si tiene alguna pregunta, contáctenos en info.yourspecialcloset@gmail.com."
+        }
+    },
+    "contact": {
+        "title": "Información de contacto",
+        "content": "Para cualquier duda, o aclaración, el usuario puede ponerse en contacto con el Servicio de Atención al Cliente de Conceptz, accediendo al apartado “Contacto” de la página web, y seleccionando la opción correspondiente, a través de la opción de WhatsApp o enviando un e-mail.",
+        "email": {
+            "label": "Correo electrónico"
+        },
+        "whatsapp": {
+            "label": "WhatsApp"
+        }
+    },
+    "footer": {
+        "title": "Your Special Closet",
+        "policies": {
+            "title": "Nuestras Políticas",
+            "terms": "Términos de Uso",
+            "privacy": "Política de Privacidad",
+            "contact": "Contacta"
+        },
+        "about": {
+            "title": "Sobre Nosotros",
+            "description": " nace como respuesta a una creciente demanda de artículos de diseño en los últimos años. Consideramos que el outfit forma parte de la esencia de cada persona, por eso nuestro objetivo es ayudar a cuidar tu look, ofreciendo lo más exclusivo en moda clásica y urbana."
+        },
+        "copyright": "©"
+    }
+}
