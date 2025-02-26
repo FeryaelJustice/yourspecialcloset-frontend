@@ -11,8 +11,7 @@ import { useTranslations } from "next-intl";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:4001";
+import SERVER_URL from "@/lib/config";
 
 export default function ProductDetailPage() {
     const t = useTranslations("productDetail.sections");

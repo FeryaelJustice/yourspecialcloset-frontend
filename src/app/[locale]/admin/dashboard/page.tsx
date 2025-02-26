@@ -8,8 +8,7 @@ import { Product } from "@/types/product";
 import { VerifyToken } from "@/types/verifyToken";
 import { toast } from "nextjs-toast-notify";
 import AdminProductModal from "@/components/AdminProductModal";
-
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:4001";
+import SERVER_URL from "@/lib/config";
 
 export default function Dashboard() {
     const [products, setProducts] = useState<Product[]>([]);

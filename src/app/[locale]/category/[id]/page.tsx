@@ -8,8 +8,7 @@ import ProductGrid from "@/components/ProductGrid";
 import Image from "next/image";
 import { useLocale } from 'next-intl';
 import { useParams } from 'next/navigation';
-
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:4001";
+import SERVER_URL from "@/lib/config";
 
 export default function CategoryPage() {
     const currentLocale = useLocale();

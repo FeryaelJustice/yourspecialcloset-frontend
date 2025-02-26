@@ -9,8 +9,7 @@ import "swiper/css/scrollbar";
 import Image from "next/image";
 
 import { Product } from "@/types/product";
-
-const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:4001"; // ✅ Usa variables de entorno
+import SERVER_URL from "@/lib/config";
 
 interface CarouselProps {
     products: Product[];

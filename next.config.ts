@@ -19,6 +19,26 @@ const nextConfig: NextConfig = withNextIntl({
                 hostname: '127.0.0.1', // ✅ Para cuando localhost resuelve a 127.0.0.1
                 port: '4001',
                 pathname: '/uploads/products/**'
+            },
+            {
+                protocol: 'http',
+                hostname: 'yourspecialcloset.store',
+                pathname: '/uploads/products/**'
+            },
+            {
+                protocol: 'https',
+                hostname: 'yourspecialcloset.store',
+                pathname: '/uploads/products/**'
+            },
+            {
+                protocol: 'http',
+                hostname: 'yourspecialclosettest.store',
+                pathname: '/uploads/products/**'
+            },
+            {
+                protocol: 'https',
+                hostname: 'yourspecialclosettest.store',
+                pathname: '/uploads/products/**'
             }
         ]
     }
