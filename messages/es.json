@@ -45,6 +45,9 @@
             }
         }
     },
+    "categoryPage": {
+        "noproductsfound": "No hay productos encontrados en esta categoría."
+    },
     "terms": {
         "title": "Términos del servicio",
         "intro": "Todo lo relacionado con nuestros servicios está detallado y disponible conforme a los Términos de Uso y Condiciones aquí detallados.",

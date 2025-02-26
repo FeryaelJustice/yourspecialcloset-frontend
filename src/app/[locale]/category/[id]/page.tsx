@@ -6,13 +6,15 @@ import { ProductCategory } from '@/types/productCategory';
 import { Product } from '@/types/product';
 import ProductGrid from "@/components/ProductGrid";
 import Image from "next/image";
-import { useLocale } from 'next-intl';
-import { useParams } from 'next/navigation';
+import { useLocale, useTranslations } from 'next-intl';
+import { useParams, useRouter } from 'next/navigation';
 import SERVER_URL from "@/lib/config";
 
 export default function CategoryPage() {
     const currentLocale = useLocale();
+    const t = useTranslations('categoryPage');
     const params = useParams();
+    const router = useRouter();
 
     const [currentCategory, setCurrentCategory] = useState<ProductCategory | undefined>(undefined);
     const [products, setProducts] = useState<Product[] | Product>([]);
@@ -34,11 +36,12 @@ export default function CategoryPage() {
                 setProducts(fetchedProducts);
             } catch (error) {
                 console.error('Error al obtener los datos:', error);
+                router.push('/');
             }
         };
 
         fetchData();
-    }, [params.id]);
+    }, [params.id, router]);
 
     return (
         <div className="relative w-full h-full mx-auto py-8">
@@ -50,27 +53,31 @@ export default function CategoryPage() {
 
             <section className="p-8">
                 {Array.isArray(products) ? (
-                    products.length === 1 ? (
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                            <div className="text-center border rounded-lg overflow-hidden shadow-lg">
-                                <div className="relative w-full h-80">
-                                    <Image
-                                        src={`${SERVER_URL}/${products[0].media?.[0]?.file_url}`}
-                                        alt={products[0].name}
-                                        fill
-                                        style={{ objectFit: "cover" }}
-                                        className='cursor-pointer'
-                                        priority
-                                    />
-                                </div>
-                                <div className="p-4">
-                                    <h3 className="text-lg font-semibold truncate" title={products[0].name}>{products[0].name}</h3>
-                                    <p className="text-gray-600">{products[0].price} EUR</p>
+                    products.length === 0 ? (
+                        <h4 className='flex justify-center items-center'>{t('noproductsfound')}</h4>
+                    ) : (
+                        products.length === 1 ? (
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                                <div className="text-center border rounded-lg overflow-hidden shadow-lg">
+                                    <div className="relative w-full h-80">
+                                        <Image
+                                            src={`${SERVER_URL}/${products[0].media?.[0]?.file_url}`}
+                                            alt={products[0].name}
+                                            fill
+                                            style={{ objectFit: "cover" }}
+                                            className='cursor-pointer'
+                                            priority
+                                        />
+                                    </div>
+                                    <div className="p-4">
+                                        <h3 className="text-lg font-semibold truncate" title={products[0].name}>{products[0].name}</h3>
+                                        <p className="text-gray-600">{products[0].price} EUR</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ) : (
-                        <ProductGrid products={products} />
+                        ) : (
+                            <ProductGrid products={products} />
+                        )
                     )
                 ) : (
                     <div className="flex justify-center items-center">

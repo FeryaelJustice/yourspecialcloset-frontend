@@ -41,12 +41,17 @@ export const getProductsByCategory = async (id: number): Promise<Product[]> => {
         const response = await axios.get<Product[]>(`${API_URL}/products/category/${id}`);
         return response.data;
     } catch (error: unknown) {
-        if (error instanceof Error) {
+        if (axios.isAxiosError(error)) {
+            if (error.response?.status === 404) {
+                console.warn(`Category ${id} not found, returning empty list.`);
+                return [];
+            }
+        } else if (error instanceof Error) {
             console.error("Error al obtener productos:", error.message);
         } else {
             console.error("Error desconocido al obtener productos:", error);
         }
-        return []; // ✅ Devuelve un array vacío para evitar crasheos
+        return []; // ✅ Devuelve un array vacío para evitar crasheos en cualquier otro error
     }
 };
 

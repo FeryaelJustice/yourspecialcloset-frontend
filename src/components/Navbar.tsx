@@ -95,8 +95,11 @@ const Navbar = ({ locale, announcementHeight, setNavbarHeight }: NavbarProps) =>
                         <nav className="flex flex-col gap-4">
                             <Link href="/" className="text-lg hover:text-gray-400" onClick={handleLinkClick}>{t('home')}</Link>
                             <div>
-                                <button className="text-lg hover:text-gray-400" onClick={() => setCategoriesOpen(!categoriesOpen)}>
-                                    {t('categories')} {categoriesOpen ? '▲' : '▼'}
+                                <button className="text-lg hover:text-gray-400" onClick={() => {
+                                    if (categories.length > 0) { setCategoriesOpen(!categoriesOpen) }
+                                }
+                                }>
+                                    {t('categories')} {categories.length > 0 ? (categoriesOpen ? '▲' : '▼') : ''}
                                 </button>
                                 {categoriesOpen && (
                                     <div className="ml-4 mt-2">

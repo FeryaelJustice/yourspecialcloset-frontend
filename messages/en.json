@@ -45,6 +45,9 @@
             }
         }
     },
+    "categoryPage": {
+        "noproductsfound": "No products found in this category"
+    },
     "terms": {
         "title": "Terms of Service",
         "intro": "All matters related to our services are detailed and available in the Terms of Use and Conditions detailed here.",
