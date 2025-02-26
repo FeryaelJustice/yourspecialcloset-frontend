@@ -23,22 +23,22 @@ const nextConfig: NextConfig = withNextIntl({
             {
                 protocol: 'http',
                 hostname: 'yourspecialcloset.store',
-                pathname: '/uploads/products/**'
+                pathname: '/api/uploads/products/**'
             },
             {
                 protocol: 'https',
                 hostname: 'yourspecialcloset.store',
-                pathname: '/uploads/products/**'
+                pathname: '/api/uploads/products/**'
             },
             {
                 protocol: 'http',
                 hostname: 'yourspecialclosettest.store',
-                pathname: '/uploads/products/**'
+                pathname: '/api/uploads/products/**'
             },
             {
                 protocol: 'https',
                 hostname: 'yourspecialclosettest.store',
-                pathname: '/uploads/products/**'
+                pathname: '/api/uploads/products/**'
             }
         ]
     }
